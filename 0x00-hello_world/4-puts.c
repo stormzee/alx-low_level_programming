@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-	/*main: Entry point
+	/*
+	 *main: Entry point
 	 *
 	 *Description: Prints Programming is like buildinng a multilingual puzzle
 	 *
