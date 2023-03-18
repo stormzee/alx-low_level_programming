@@ -5,18 +5,17 @@
  */
 int main(void)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; i <= 9; i++)
+	while (i <= 10)
 	{
-		for (j = i + 1; j <= 10; j++)
+		putchar(i + '0');
+		if (i < 9)
 		{
-			putchar(i + '0');
 			putchar(',');
-			putchar(j + '0');
 			putchar(' ');
-
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
