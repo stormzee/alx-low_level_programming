@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints the last digit of a number and 
- * check if greater than 5, equal to zero or
- * less than 6 and not 0
- * Return: Success (0), Always
+ *main - Prints the last digit of a number and 
+ *check if greater than 5, equal to zero or
+ *less than 6 and not 0
+ *Return: Success (0), Always
  */
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
 		printf("Last digit of %d is %d and is greater than 5\n",
 			n, last_digit);
 	else if (last_digit == 0)
-		printf("Last digit of %d is %d and is 0\n",n, last_digit);
+		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	else if (last_digit < 6 &&  n != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n",
 			n, last_digit);
