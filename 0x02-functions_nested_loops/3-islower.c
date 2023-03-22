@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _islower - checks for lowercase alphabets
- * @c - argument to check whether it is lowercase
+ * @c: parameter to check for whether it is lowercase
  * Return: 1 if true otherwise 0
  */
 int _islower(int c)
