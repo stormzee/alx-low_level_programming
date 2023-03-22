@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10.c - print alphabets a-z ten times
+ * print_alphabet_x10 - print alphabets a-z ten times
  *
  * Return: Success(0), Always otherswise exit with error
  */
