@@ -8,7 +8,7 @@ int main(void)
 	int c;
 	char ptchar[] = "_putchar";
 
-	for (c = 0; c <= 8; c++)
+	for (c = 0; c <= 7; c++)
 		_putchar(ptchar[c]);
 	_putchar('\n');
 	return (0);
