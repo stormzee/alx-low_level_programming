@@ -13,7 +13,10 @@ void times_table(void)
 		for (col = 0; col < 10; col++)
 		{
 			product = row * col;
-			_putchar(product + 48);
+			/*print the first value of the product using the division */
+			_putchar(product / 10 + '0');
+			/*print the last digit of the product usng the modulo */
+			_putchar(product % 10 + '0');
 			_putchar(',');
 			_putchar(' ');
 		}
