@@ -10,5 +10,4 @@ int print_last_digit(int c)
 	int lastnum;
 	lastnum = c % 10;
 	_putchar(lastnum);
-	_putchar('\n');
 }
