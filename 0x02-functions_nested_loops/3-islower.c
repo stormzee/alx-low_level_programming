@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <ctype.h>
 #include "main.h"
 /**
  * _is_lower - checks for lowercase alphabets
@@ -7,7 +7,7 @@
  */
 int _is_lower(int c)
 {
-	if islower(c)
+	if (islower(c))
 		return (1);
 	else
 		return (0);
