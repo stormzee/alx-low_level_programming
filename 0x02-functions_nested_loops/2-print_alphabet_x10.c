@@ -5,10 +5,9 @@
  */
 void print_alphabet_x10(void)
 {
-	char c[] = "abcdefghijklmnopqrstuvwxyz";
+	char c = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i <= 9; i++)
 		_putchar(c);
-	return (0);
 }
