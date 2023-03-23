@@ -11,6 +11,9 @@ void print_triangle(int size)
 		_putchar('\n');
 	for (row = 1; row <= size; row++)
 	{
+		/*create another inner for loop to print a certain num of spaces*/
+		for (row = 1; row <= size - 1; row++)
+			_putchar(' ');
 		for (col = 1; col <= row; col++)
 			_putchar('#');
 		_putchar('\n');
