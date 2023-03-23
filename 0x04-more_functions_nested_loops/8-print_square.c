@@ -4,7 +4,7 @@
  * @size: the size of the square
  * Return: Success (0), Always.
  */
-int print_square(int size)
+void print_square(int size)
 {
 	int row, col;
 
@@ -19,5 +19,4 @@ int print_square(int size)
 			_putchar('\n');
 		}
 	}
-	return (0);
 }
