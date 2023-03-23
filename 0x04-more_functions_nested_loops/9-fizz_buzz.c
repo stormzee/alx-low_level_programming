@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints from 1 to 100 and put fizz, buzz
- * or fizzbuzz for multiples of 3, 5 and of both
- * respectively
+ * or fizzbuzz for multiples of 3, 5 and of both respectively
  * Return: Success (0), Always
  */
 int main(void)
