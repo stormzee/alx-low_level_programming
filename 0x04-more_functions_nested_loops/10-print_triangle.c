@@ -12,7 +12,7 @@ void print_triangle(int size)
 	for (row = 1; row <= size; row++)
 	{
 		/*for loop to print a certain num of spaces on each row*/
-		for (col = 1; col <= size - 1; col++)
+		for (col = 1; col <= size - row; col++)
 			_putchar(' ');
 		for (col = 1; col <= row; col++)
 			_putchar('#');
