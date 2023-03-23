@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  *print_diagonal - print diagonal lines in the terminal
- * @n: the number of time to print the character \
+ *@n: the number of time to print the character \
  *Return: Success (0), Always
  */
-int print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int row col;
 
