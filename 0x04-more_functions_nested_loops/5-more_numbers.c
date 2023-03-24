@@ -12,8 +12,8 @@ void more_numbers(void)
 		for (col = 0; col < 15; col++)
 		{
 			if (col >= 10)
-				_putchar((col / 10) + '0');
-			_putchar((col % 10) + '0');
+				_putchar((col / 10) + 48);
+			_putchar((col % 10) + 48);
 		}
 		_putchar('\n');
 	}
