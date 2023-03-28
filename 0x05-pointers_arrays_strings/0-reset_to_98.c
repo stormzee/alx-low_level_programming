@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * reset_to_98 - sets a number to 98  - 
+ * reset_to_98 - sets a number to 98
  * @*n: number to chaange its values to 98
  * Return:
  */
