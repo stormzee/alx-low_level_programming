@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - prints a string, followed by newline
- * @str: char param to get the length
+ * @str: char param to be printed
  * Return: Success(0), Always
  */
 void _puts(char *str)
